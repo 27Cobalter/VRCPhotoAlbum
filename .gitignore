@@ -1,0 +1,13 @@
+*.csproj
+*.sln
+.vs/
+.vscode/
+Library/
+ProjectSettings/
+Temp/
+obj/
+Assets/*
+!PhotoAlbum
+Assets/PhotoAlbum/Resources/PhotoAlbum*
+Assets/PhotoAlbum/PC/Sticker*
+Assets/PhotoAlbum/PhotoAlbum.asset*
