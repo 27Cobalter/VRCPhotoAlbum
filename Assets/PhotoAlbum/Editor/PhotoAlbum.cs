@@ -7,7 +7,7 @@ using System.IO;
 
 public class PhotoAlbum : MonoBehaviour {
 
-    [MenuItem ("Util/Generate PhotoAlbum")]
+    [MenuItem ("Utils/Generate PhotoAlbum")]
     static void Create () {
         // Resources/PhotoAlbum画像を配置名前はPhoto_0001のような1から始まるゼロ埋めの4桁
         // {0:000} Photo_0001, Photo_0002, Photo_0003, Photo_0004, ...
