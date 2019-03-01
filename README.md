@@ -9,7 +9,7 @@
 1. VRCSDKとVRChat_HomeKitをインポートする
 1. PhotoAlbum.unitypackageをインポートする
 1. 用意した画像を`Resources`フォルダに入れて`Inspector > Advanced > Read/Write Enabled`にチェックを入れる
-1. `Assets/PhotoAlbum/Editor/PhotoAlbum.cs`の19行目の`int slices = 242;`の242を入れる画像の枚数に設定する (例:Photo_0001.png~Photo_0100.pngまでを入れるなら101)
+1. `Assets/PhotoAlbum/Editor/PhotoAlbum.cs`の19行目の`int slices = 242;`の242を入れる画像の枚数に設定する (例:Photo_0001.png~Photo_0100.pngまでを入れるなら100)
 1. `Assets/PhotoAlbum/PhotoAlbum.shader`を開き6行目の`_SliceRange("Slices", Range(0,243)) = 0`の243を入れる画像の枚数+1に設定する (例:Photo_0001.png~Photo_0100.pngまでを入れるなら101)
 1. ツールバーから`Util > Generate PhotoAlbum`を実行する
 1. 生成された`Assets/PhotoAlbum/PhotoAlbum.asset`を`Assets/PhotoAlbum/Materials`以下の`Back以外`のマテリアルのTexに指定する
